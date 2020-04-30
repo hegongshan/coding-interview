@@ -21,7 +21,25 @@
 * 0 <= len(s) <= 100
 * 如果你不使用额外的数据结构，会很加分。
 
-### 方法一：集合
+### 方法一：暴力法
+
+```java
+class Solution {
+    public boolean isUnique(String astr) {
+        for (int i = 0; i < astr.length(); i++) {
+            char c = astr.charAt(i);
+            if (astr.indexOf(c) != astr.lastIndexOf(c)) {
+                return false;
+            }
+        }
+        return true;
+    }
+}
+```
+
+复杂度分析：时间复杂度为O(n^2)，空间复杂度为O(1)。其中，n为字符串的长度。
+
+### 方法二：集合
 
 ```java
 class Solution {
@@ -41,20 +59,3 @@ class Solution {
 ```
 
 复杂度分析：时间复杂度为O(n)，空间复杂度为O(n)。其中，n为字符串的长度。
-
-### 方法二：哈希表
-
-```java
-class Solution {
-    public boolean isUnique(String astr) {
-        for (int i = 0; i < astr.length(); i++) {
-            char c = astr.charAt(i);
-            if (astr.indexOf(c) != astr.lastIndexOf(c)) {
-                return false;
-            }
-        }
-        return true;
-    }
-}
-```
-
