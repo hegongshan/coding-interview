@@ -1,6 +1,6 @@
-### LeetCode
+### LeetCode题解
 
-[题解](/leetcode)
+[目录](/leetcode)
 
 ### 《程序员面试金典》
 
