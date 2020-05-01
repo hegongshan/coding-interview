@@ -22,20 +22,20 @@
 ```java
 class Solution {
     public List<String> generateParenthesis(int n) {
-        Set<String> set = new HashSet<>();
-        backtracking(0, n, "", set);
-        return new ArrayList<String>(set);
+        List<String> list = new ArrayList<>();
+        backtracking(0, n, "", list);
+        return list;
     }
 
-    public void backtracking(int cur, int n, String s, Set<String> set) {
+    public void backtracking(int cur, int n, String s, List<String> list) {
         if (cur == 2 * n) {
-            if (isValid(s) && !set.contains(s)) {
-                set.add(s);
+            if (isValid(s)) {
+                list.add(s);
             }
             return ;
         }
-        backtracking(cur + 1, n, s + "(", set);
-        backtracking(cur + 1, n, s + ")", set);
+        backtracking(cur + 1, n, s + "(", list);
+        backtracking(cur + 1, n, s + ")", list);
     }
 
     public boolean isValid(String s) {
@@ -45,7 +45,7 @@ class Solution {
             char c = s.charAt(idx++);
             if (c == '(') {
                 stack.push('(');
-            } else if (stack.isEmpty() || (!stack.isEmpty() && stack.peek() != '(')){
+            } else if (stack.isEmpty() || (!stack.isEmpty() && stack.peek() != '(')) {
                 return false;
             } else {
                 stack.pop();
