@@ -17,27 +17,25 @@
 
 注：2020年4月22日，广联达笔试考到了这个题。
 
-### 方法一：暴力法
+### 方法一：回溯
 
 ```java
 class Solution {
     public List<String> generateParenthesis(int n) {
         Set<String> set = new HashSet<>();
-        backtracking(n, "", set);
+        backtracking(0, n, "", set);
         return new ArrayList<String>(set);
     }
 
-    public void backtracking(int n, String s, Set<String> set) {
-        if (s.length() == 2 * n) {
+    public void backtracking(int cur, int n, String s, Set<String> set) {
+        if (cur == 2 * n) {
             if (isValid(s) && !set.contains(s)) {
                 set.add(s);
             }
             return ;
         }
-        for (int i = 0; i < n; i++) {
-            backtracking(n, s + "(", set);
-            backtracking(n, s + ")", set);
-        }
+        backtracking(cur + 1, n, s + "(", set);
+        backtracking(cur + 1, n, s + ")", set);
     }
 
     public boolean isValid(String s) {
