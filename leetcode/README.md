@@ -7,4 +7,5 @@
 |  77  |    [组合](https://leetcode-cn.com/problems/combinations/)    |     [查看题解](77-combinations.md)     |     回溯      |
 |  78  |      [子集](https://leetcode-cn.com/problems/subsets/)       |       [查看题解](78-subsets.md)        | 回溯（组合）  |
 | 190  | [ 颠倒二进制位](https://leetcode-cn.com/problems/reverse-bits/) |    [查看题解](190-reverse-bits.md)     |    位运算     |
+| 231  |   [2的幂](https://leetcode-cn.com/problems/power-of-two/)    |    [查看题解](231-power-of-two.md)     |    位运算     |
 
