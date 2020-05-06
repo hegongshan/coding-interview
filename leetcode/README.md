@@ -13,5 +13,5 @@
 
 ### 专题练习
 
-1. [位运算专题](/bit-manipulation/)
+1. [位运算专题](./bit-manipulation/)
 
