@@ -9,3 +9,9 @@
 | 190  | [ 颠倒二进制位](https://leetcode-cn.com/problems/reverse-bits/) |    [查看题解](190-reverse-bits.md)     |    位运算     |
 | 231  |   [2的幂](https://leetcode-cn.com/problems/power-of-two/)    |    [查看题解](231-power-of-two.md)     |    位运算     |
 
+
+
+### 专题练习
+
+1. [位运算专题](/bit-manipulation/)
+
