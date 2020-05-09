@@ -14,7 +14,7 @@
 ### 专题练习
 
 1. [位运算专题](./bit-manipulation/)
-
 2. [回溯专题](./backtracking/)
-
 3. [深度优先搜索](./depth-first-search/)
+4. [数学](./math/)
+
