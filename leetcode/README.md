@@ -17,6 +17,4 @@
 2. [回溯专题](./backtracking/)
 3. [深度优先搜索](./depth-first-search/)
 4. [数学](./math/)
-
 5. [队列](./queue/)
-
