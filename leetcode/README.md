@@ -16,5 +16,6 @@
 1. [位运算专题](./bit-manipulation/)
 2. [回溯专题](./backtracking/)
 3. [深度优先搜索](./depth-first-search/)
-4. [数学](./math/)
-5. [队列](./queue/)
+4. [动态规划](./dynamic-programming/)
+5. [数学](./math/)
+6. [队列](./queue/)
