@@ -47,7 +47,7 @@ circularQueue.Rear();  // 返回 4
 
 **思路：**本题与《数据结构》书上的循环队列略有不同。当队列已满时，队尾元素的下一个元素是队首元素。
 
-因此，可以使用数组来实现循环队列，并定义队首指针front和队尾指针rear（指向队尾的下一个位置），以及队列中的元素个数size。
+参考java.util.ArrayDeque类，我们可以使用数组来实现循环队列，并定义队首指针front和队尾指针rear（指向队尾的下一个位置），以及队列中的元素个数size。
 
 ```java
 class MyCircularQueue {
@@ -73,9 +73,9 @@ class MyCircularQueue {
         if (isFull()) {
             return false;
         }
-        size++;
         data[rear] = value;
         rear = (rear + 1) % data.length;
+        size++;
         return true;
     }
 
@@ -87,8 +87,8 @@ class MyCircularQueue {
         if (isEmpty()) {
             return false;
         }
-        size--;
         front = (front + 1) % data.length;
+        size--;
         return true;
     }
 

@@ -18,4 +18,5 @@
 3. [深度优先搜索](./depth-first-search/)
 4. [动态规划](./dynamic-programming/)
 5. [数学](./math/)
-6. [队列](./queue/)
+6. [栈](./stack/)
+7. [队列](./queue/)
