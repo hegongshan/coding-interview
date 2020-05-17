@@ -14,3 +14,9 @@
 | :--: | :----------------------------------------------------------: | :-------------------------------------------------: | :---------------------------------------: |
 | 637  | [二叉树的层平均值](https://leetcode-cn.com/problems/average-of-levels-in-binary-tree/) | [查看题解](637-average-of-levels-in-binary-tree.md) | <strong style="color:green">简单</strong> |
 
+### 二叉搜索树
+
+|  #   |                             题名                             |                 Java/Python                  |                   难度                    |
+| :--: | :----------------------------------------------------------: | :------------------------------------------: | :---------------------------------------: |
+| 669  | [修剪二叉搜索树](https://leetcode-cn.com/problems/trim-a-binary-search-tree/) | [查看题解](669-trim-a-binary-search-tree.md) | <strong style="color:green">简单</strong> |
+
