@@ -14,9 +14,12 @@
 | :--: | :----------------------------------------------------------: | :-------------------------------------------------: | :---------------------------------------: |
 | 637  | [二叉树的层平均值](https://leetcode-cn.com/problems/average-of-levels-in-binary-tree/) | [查看题解](637-average-of-levels-in-binary-tree.md) | <strong style="color:green">简单</strong> |
 
-### 二叉搜索树
+### 二叉搜索树（BST）
 
-|  #   |                             题名                             |                 Java/Python                  |                   难度                    |
-| :--: | :----------------------------------------------------------: | :------------------------------------------: | :---------------------------------------: |
-| 669  | [修剪二叉搜索树](https://leetcode-cn.com/problems/trim-a-binary-search-tree/) | [查看题解](669-trim-a-binary-search-tree.md) | <strong style="color:green">简单</strong> |
+|  #   |                             题名                             |                         Java/Python                          |                    难度                     |
+| :--: | :----------------------------------------------------------: | :----------------------------------------------------------: | :-----------------------------------------: |
+| 108  | [将有序数组转换为二叉搜索树](https://leetcode-cn.com/problems/convert-sorted-array-to-binary-search-tree/) | [查看题解](108-convert-sorted-array-to-binary-search-tree.md) |  <strong style="color:green">简单</strong>  |
+| 230  | [二叉搜索树中第K小的元素](https://leetcode-cn.com/problems/kth-smallest-element-in-a-bst/) |       [查看题解](230-kth-smallest-element-in-a-bst.md)       | <strong style="color:#f0ad4e">中等</strong> |
+| 538  | [把二叉搜索树转换为累加树](https://leetcode-cn.com/problems/convert-bst-to-greater-tree/) |        [查看题解](538-convert-bst-to-greater-tree.md)        |  <strong style="color:green">简单</strong>  |
+| 669  | [修剪二叉搜索树](https://leetcode-cn.com/problems/trim-a-binary-search-tree/) |         [查看题解](669-trim-a-binary-search-tree.md)         |  <strong style="color:green">简单</strong>  |
 
