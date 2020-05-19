@@ -18,8 +18,9 @@
 3. [深度优先搜索](./depth-first-search/)
 4. [动态规划](./dynamic-programming/)
 5. [数学](./math/)
-6. [栈](./stack/)
-7. [队列](./queue/)
-8. [树](./tree/)
-9. [哈希表](./hash-table/)
+6. [数组](./array/)
+7. [栈](./stack/)
+8. [队列](./queue/)
+9. [树](./tree/)
+10. [哈希表](./hash-table/)
 
