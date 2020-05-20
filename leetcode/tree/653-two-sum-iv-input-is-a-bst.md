@@ -34,7 +34,9 @@ Target = 28
 
 ### 方法一：中序遍历+集合
 
-思路：对BST进行中序遍历，遍历的同时将所有的值加入到集合中。然后，依次判断每个值x，其对应的值k-x是否在集合中。
+思路：首先，对BST进行中序遍历，遍历的同时将所有的值加入到集合中。
+
+然后，依次判断每个值x，其对应的值k-x是否在集合中。
 
 ```java
 /**
@@ -74,6 +76,8 @@ class Solution {
 
 ### 方法二：先序遍历+集合
 
+思路：遍历的同时，判断当前值x，其对应的值k-x是否在集合中。
+
 ```java
 /**
  * Definition for a binary tree node.
@@ -90,7 +94,7 @@ class Solution {
         return find(root, k, set);
     }
 
-  	// 先序遍历
+    // 先序遍历
     private boolean find(TreeNode root, int k, Set<Integer> set) {
         if (root == null) {
             return false;
