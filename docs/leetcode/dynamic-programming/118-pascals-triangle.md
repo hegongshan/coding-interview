@@ -1,6 +1,6 @@
 #### [118. 杨辉三角](https://leetcode-cn.com/problems/pascals-triangle/)
 
-给定一个非负整数 *numRows，*生成杨辉三角的前 *numRows* 行。
+给定一个非负整数 numRows，生成杨辉三角的前 numRows 行。
 
 ![杨辉三角](images/pascal-triangle-animated.gif)
 
