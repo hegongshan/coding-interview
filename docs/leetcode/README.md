@@ -13,6 +13,17 @@
 
 ### 专题练习
 
+#### 数据结构
+
+1. [数组](./array/)
+2. [字符串](./string/)
+3. [栈](./stack/)
+4. [队列](./queue/)
+5. [树](./tree/)
+6. [哈希表](./hash-table/)
+
+#### 算法
+
 1. [位运算专题](./bit-manipulation/)
 2. [回溯专题](./backtracking/)
 3. [深度优先搜索](./depth-first-search/)
@@ -21,9 +32,4 @@
 6. [双指针](./two-pointers/)
 7. [二分查找](./binary-search/)
 8. [数学](./math/)
-9. [数组](./array/)
-10. [栈](./stack/)
-11. [队列](./queue/)
-12. [树](./tree/)
-13. [哈希表](./hash-table/)
 
