@@ -8,11 +8,19 @@
 | 404  | [左叶子之和](https://leetcode-cn.com/problems/sum-of-left-leaves/) |      [查看题解](404-sum-of-left-leaves.md)      | <strong style="color:green">简单</strong> |
 | 617  | [合并二叉树](https://leetcode-cn.com/problems/merge-two-binary-trees/) |    [查看题解](617-merge-two-binary-trees.md)    | <strong style="color:green">简单</strong> |
 
+### 前序遍历
+
+
+|  #   |                             题名                             |                   Java/Python                    |                   难度                    |
+| :--: | :----------------------------------------------------------: | :----------------------------------------------: | :---------------------------------------: |
+| 589  | [N叉树的前序遍历](https://leetcode-cn.com/problems/n-ary-tree-preorder-traversal/) | [查看题解](589-n-ary-tree-preorder-traversal.md) | <strong style="color:green">简单</strong> |
+
 ### 层次遍历
 
-|  #   |                             题名                             |                     Java/Python                     |                   难度                    |
-| :--: | :----------------------------------------------------------: | :-------------------------------------------------: | :---------------------------------------: |
-| 637  | [二叉树的层平均值](https://leetcode-cn.com/problems/average-of-levels-in-binary-tree/) | [查看题解](637-average-of-levels-in-binary-tree.md) | <strong style="color:green">简单</strong> |
+|  #   |                             题名                             |                     Java/Python                     |                    难度                     |
+| :--: | :----------------------------------------------------------: | :-------------------------------------------------: | :-----------------------------------------: |
+| 429  | [N叉树的层序遍历](https://leetcode-cn.com/problems/n-ary-tree-level-order-traversal/) | [查看题解](429-n-ary-tree-level-order-traversal.md) | <strong style="color:#f0ad4e">中等</strong> |
+| 637  | [二叉树的层平均值](https://leetcode-cn.com/problems/average-of-levels-in-binary-tree/) | [查看题解](637-average-of-levels-in-binary-tree.md) |  <strong style="color:green">简单</strong>  |
 
 ### 二叉搜索树（BST）
 
