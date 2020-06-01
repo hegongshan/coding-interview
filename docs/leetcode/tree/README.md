@@ -8,12 +8,13 @@
 | 404  | [左叶子之和](https://leetcode-cn.com/problems/sum-of-left-leaves/) |      [查看题解](404-sum-of-left-leaves.md)      | <strong style="color:green">简单</strong> |
 | 617  | [合并二叉树](https://leetcode-cn.com/problems/merge-two-binary-trees/) |    [查看题解](617-merge-two-binary-trees.md)    | <strong style="color:green">简单</strong> |
 
-### 前序遍历
+### 遍历
 
 
-|  #   |                             题名                             |                   Java/Python                    |                   难度                    |
-| :--: | :----------------------------------------------------------: | :----------------------------------------------: | :---------------------------------------: |
-| 589  | [N叉树的前序遍历](https://leetcode-cn.com/problems/n-ary-tree-preorder-traversal/) | [查看题解](589-n-ary-tree-preorder-traversal.md) | <strong style="color:green">简单</strong> |
+|  #   |                             题名                             |                         Java/Python                          |                    难度                     |
+| :--: | :----------------------------------------------------------: | :----------------------------------------------------------: | :-----------------------------------------: |
+| 589  | [N叉树的前序遍历](https://leetcode-cn.com/problems/n-ary-tree-preorder-traversal/) |       [查看题解](589-n-ary-tree-preorder-traversal.md)       |  <strong style="color:green">简单</strong>  |
+| 987  | [二叉树的垂序遍历](https://leetcode-cn.com/problems/vertical-order-traversal-of-a-binary-tree/) | [查看题解](987-vertical-order-traversal-of-a-binary-tree.md) | <strong style="color:#f0ad4e">中等</strong> |
 
 ### 层次遍历
 
