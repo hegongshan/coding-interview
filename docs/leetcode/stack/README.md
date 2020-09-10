@@ -2,6 +2,7 @@
 
 |  #   |                             题名                             |                         Java/Python                          |                    难度                     |
 | :--: | :----------------------------------------------------------: | :----------------------------------------------------------: | :-----------------------------------------: |
+|  71  | [简化路径](https://leetcode-cn.com/problems/simplify-path/)  |               [查看题解](71-simplify-path.md)                | <strong style="color:#f0ad4e">中等</strong> |
 | 150  | [逆波兰表达式求值](https://leetcode-cn.com/problems/evaluate-reverse-polish-notation/) |     [查看题解](150-evaluate-reverse-polish-notation.md)      | <strong style="color:#f0ad4e">中等</strong> |
 | 496  | [下一个更大元素 I](https://leetcode-cn.com/problems/next-greater-element-i/) |          [查看题解](496-next-greater-element-i.md)           |  <strong style="color:green">简单</strong>  |
 | 844  | [844. 比较含退格的字符串](https://leetcode-cn.com/problems/backspace-string-compare/) |         [查看题解](844-backspace-string-compare.md)          |  <strong style="color:green">简单</strong>  |
